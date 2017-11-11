@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#52000000"
+    android:orientation="horizontal"
+    android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:text="KAEM.DK"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:text="users"
+            android:textAlignment="center"
+            android:textColor="@color/subtitleColor"
+            android:textSize="@dimen/subtitleSize" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:text="projects"
+            android:textAlignment="center"
+            android:textColor="@color/subtitleColor"
+            android:textSize="@dimen/subtitleSize" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:text="teams"
+            android:textAlignment="center"
+            android:textColor="@color/subtitleColor"
+            android:textSize="@dimen/subtitleSize" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:text="lookups"
+            android:textAlignment="center"
+            android:textColor="@color/subtitleColor"
+            android:textSize="@dimen/subtitleSize" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/kaem_users"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/countersSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kaem_projects"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/countersSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kaem_teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/countersSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kaem_lookups"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/countersSize"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/REFRESH_BUTTON"
+            style="@android:style/Widget.DeviceDefault.ImageButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight=".125"
+            android:background="#00000000"
+            android:contentDescription="@string/refresh"
+            android:src="@android:drawable/stat_notify_sync"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</RelativeLayout>
