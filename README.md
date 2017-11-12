@@ -1,8 +1,6 @@
-<p align="center">
-    <img src="logo.png" height="130">
-</p>
 
-<p align="center">
+<img src="logo.png" height="130" />
+
 
   <a href="https://github.com/kaem/android-widget/issues">
   	<img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"
@@ -21,15 +19,13 @@
   <a href="LICENSE.md">
   <img src="https://badges.frapsoft.com/os/mit/mit.svg?v=102" alt=""></a>
 
-</p>
-
 
 # android-widget
 Android app widget for KAEM, providing only simple statistics right now.
 
-<p align="center">
-  <img src="https://github.com/KAEM/android-widget/blob/master/kaem_widget_ss.png" width="300">
-</p>
+
+<img src="https://github.com/KAEM/android-widget/blob/master/kaem_widget_ss.png" width="300">
+
 
 ## TODOS
 - [ ] Add kaem.io to statistics as well
